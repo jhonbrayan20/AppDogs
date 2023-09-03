@@ -1,0 +1,65 @@
+.detailContainer{
+    min-height: 100vh;
+    background-image: url("../../Components/Utils/imagen2.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cardDetail{
+    height: 600px;
+    width: 1000px;
+    background-color:#FFE1C8 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius: 20px;
+}
+.caratula img{
+    border-radius: 15px;
+    height: 250px;
+    width: 250px; 
+    margin-top: 20px;
+}
+
+.detailContainer button{
+    margin-top: 2px;
+    background-color:#FF9741;
+    border-color: #FF9741;
+    height: 30px;
+    border-radius: 6px;
+}
+.detailContainer button:hover{
+    background-color:#FF7400;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.descripcion{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.caratula{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temp{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    background-color:#FFD8B0;
+}

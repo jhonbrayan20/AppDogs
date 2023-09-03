@@ -1,0 +1,45 @@
+/* Estilos para el contenedor principal */
+.landingContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../../Components//Utils/imagen2.jpg"); 
+}
+.videoContainer{
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+   
+}
+.videoContainer video{
+    width: 100%;
+    height: 100%;
+}
+.welcome{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 20px;
+}
+.welcome button{
+    margin-top: 10px;
+    border-color: chocolate;
+    background-color: chocolate;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+.welcome button:hover{
+    background-color: orangered;
+}
+
+
+ 
+  

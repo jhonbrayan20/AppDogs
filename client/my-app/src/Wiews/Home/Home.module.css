@@ -1,0 +1,16 @@
+.homeContainer{
+    background-image: url(../../Components/Utils/imagen2.jpg);
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.optionContainer{
+    display: flex;
+    justify-content: center;
+}
+

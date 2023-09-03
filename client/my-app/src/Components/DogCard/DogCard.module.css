@@ -1,0 +1,30 @@
+.cardContainer{
+    width: 230px;
+    height: 450px;
+    border: 2px solid black ;
+    border-radius:10px; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background-color:#FFE1C8 ;
+    border-color: #FFE1C8;
+    color: black;
+
+}
+.link :hover{
+    color:#FF7400;
+    background-color:#FFA07A;
+}
+
+.cardContainer img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;   
+}

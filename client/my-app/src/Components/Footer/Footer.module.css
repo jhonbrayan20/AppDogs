@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    width: 40px;
+    height: 30px;
+    
+}
+.heart{
+    color: red;
+}

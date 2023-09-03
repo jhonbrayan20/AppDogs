@@ -1,0 +1,35 @@
+.Navbarcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#FFE1C8 ;
+    height: 70px;
+}
+.Navbarcontainer button{
+    background-color: #FF9741;
+    border-color: #FF9741;
+    height: 30px;
+    border-radius: 5px;
+}
+.Navbarcontainer button:hover{
+    background-color: #FF7400;
+}
+.dog{
+    width: 70px;
+    height: 40px;
+    color: #FF9741;
+}
+.dog :hover{
+    color:#FF7400 ;
+}
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.searchBar input{
+    height: 30px;
+    border-radius: 5px;
+}

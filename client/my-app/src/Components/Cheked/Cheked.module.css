@@ -1,0 +1,14 @@
+.ChekedContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#FFE1C8;
+    height: 120px;
+    border-radius: 10px;
+}
+.ChekedContainer button{
+    background-color:#FF9741;
+    border-color: #FF9741;
+    border-radius: 10px;
+    height: 25px;
+}

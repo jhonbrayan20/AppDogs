@@ -1,0 +1,9 @@
+.NotFountContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("../Utils/imagen2.jpg");
+    
+}

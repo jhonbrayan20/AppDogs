@@ -1,0 +1,138 @@
+/* Estilos generales del contenedor de formularios */
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 1100px;
+  border-radius: 10px;
+}
+
+/* Estilos para el formulario derecho (containerTemp) */
+.containerTemp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px; /* Ancho del primer formulario */
+  height: 500px; /* Ajusta la altura del formulario */
+  background-color:#FFE1C8 ; /* Color de fondo del primer formulario */
+  border: 2px solid #FF9741;
+  border-radius: 10px;
+  padding: 20px; /* Agrega un espacio interno para separar los elementos */
+  margin-right: 20px; /* Espacio entre los formularios, ajusta según sea necesario */
+}
+
+/* Estilos para cada campo del formulario */
+.containerTemp form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  margin-bottom: 15px; /* Ajusta el espacio entre los campos */
+}
+
+/* Estilos para las etiquetas */
+.containerTemp form label {
+  font-weight: bold;
+}
+
+/* Estilos para los inputs */
+.containerTemp form input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px; /* Ajusta el espacio entre los labels y los inputs */
+}
+
+/* Estilos para los mensajes de error */
+.containerTemp form p {
+  margin: 6px 0; /* Ajusta el espacio vertical de los errores */
+  color: red;
+  font-size: 12px;
+}
+
+
+/* Estilos para el formulario izquierdo (formContent) */
+.formContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px; /* Ancho del segundo formulario */
+  height: 500px; /* Ajusta la altura del formulario */
+  background-color:  #FFE1C8; /* Color de fondo del segundo formulario */
+  border: 2px solid #FF9741;
+  border-radius: 10px;
+  padding: 20px; /* Agrega un espacio interno para separar los elementos */
+}
+
+/* Estilos para cada campo del formulario */
+.formContent form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px; /* Ajusta el espacio entre los campos */
+}
+
+.formContent div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para las etiquetas */
+.formContent form label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Ajusta el espacio entre los labels y los inputs */
+}
+
+/* Estilos para los inputs */
+.formContent form input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px; /* Ajusta el espacio entre los inputs y los errores */
+}
+
+/* Estilos para los mensajes de error */
+.formContent form p {
+  margin: 6px 0; /* Ajusta el espacio vertical de los errores */
+  color: red;
+  font-size: 12px;
+}
+
+/* Estilos para el botón */
+.formContent form button {
+  margin-top: 20px; /* Ajusta el espacio entre los campos y el botón */
+  padding: 10px 20px;
+  background-color: #FF9741;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContent form button:hover {
+  background-color:#FF7400  ;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+}
+
+.button button{
+  margin-bottom: 5px;
+  width: 80px;
+  height: 40px;
+  background-color:#FF9741 ;
+  border-radius: 5px;
+  border:white;
+  color:white;
+}
+.button button:hover{
+  background-color: #FF7400;
+}

@@ -1,0 +1,15 @@
+.searchContainer{
+    background-image: url("../../Components/Utils/imagen2.jpg");
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+    
+}
+.cardsSearch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
