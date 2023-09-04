@@ -1,7 +1,10 @@
 
-const server=require("./src/app");
-const { conn } = require("./src/bd");
-const PORT=3001;
+const server=require("./app");
+const { conn } = require("./bd");
+const dotenv=require("dotenv")
+dotenv.config()
+
+const {PORT}=process.env;
 
 
 
