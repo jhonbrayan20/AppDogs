@@ -14,12 +14,11 @@ import {
   SET_INPUT
 } from "./Types";
 
-const URL_GETALLLDOGS = "http://localhost:3001/dogs";
 
 export const GetAllDogs = () => {
   return async (dispach) => {
     try {
-      const { data } = await axios(URL_GETALLLDOGS);
+      const { data } = await axios(`/dogs`);
       return dispach({
         type: GET_DOG_ALL,
         payload: data,
@@ -42,7 +41,7 @@ export const GetAllDogs = () => {
 export const getDogsID = (id) => {
   return async (dispach) => {
     try {
-      const { data } = await axios(`http://localhost:3001/dogs/${id}`);
+      const { data } = await axios(`/dogs/${id}`);
       return dispach({
         type: GET_DOGS_ID,
         payload: data,
@@ -66,7 +65,7 @@ export const GetAllTemperaments = () => {
   return async (dispach) => {
     try {
       const temperaments = (
-        await axios.get("http://localhost:3001/temperaments/")
+        await axios.get("/temperaments/")
       ).data;
       return dispach({
         type: GET_ALL_TEMPERAMENT,
@@ -113,7 +112,7 @@ export function clearSearch() {
 export function getFilteredBreeds(temperament, component) {
   return async function (dispatch) {
     try {
-      const res = await axios.get(URL_GETALLLDOGS);
+      const res = await axios.get(`/dogs`);
       // const res ={ data: breeds}
       let filteredResp = [];
       if (temperament) {
@@ -170,7 +169,7 @@ export const orderDogs = (value, data) => {
 export function searchByName(name) {
   return async function (dispatch) {
     try {
-      const res = await axios.get(`http://localhost:3001/dogs?name=${name}`);
+      const res = await axios.get(`/dogs?name=${name}`);
       // console.log(res.data)
       return dispatch({
         type: SEARCH_BY_NAME,
@@ -188,7 +187,7 @@ export function searchByName(name) {
 export function posForm(form) {
   return async function (dispatch) {
     try {
-      const res = await axios.post("http://localhost:3001/dogs", form);
+      const res = await axios.post("/dogs", form);
       return dispatch({
         type: POST_FORM,
         payload: res.data,

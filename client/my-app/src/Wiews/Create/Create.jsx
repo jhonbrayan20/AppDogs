@@ -9,7 +9,7 @@ function Create() {
   const dispach=useDispatch();
   useEffect(()=>{
     dispach(clearForm())
-  },[])
+  },[dispach])
   return (
     <div className={styles.container} >
       <div >  
